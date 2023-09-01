@@ -14,6 +14,12 @@ export interface ThemeSwitchProps {
 	classNames?: SwitchProps["classNames"];
 }
 
+// interface constType {
+// 	arg?: string 
+// }
+
+// const someConst: constType = {arg}
+
 export const ThemeSwitch: FC<ThemeSwitchProps> = ({
 	className,
 	classNames,
