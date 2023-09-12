@@ -15,11 +15,7 @@ export const siteConfig = {
 		{
 			label: "Projects",
 			href: "/projects",
-		},
-		{
-			label: "Resume",
-			href: "/resume",
-		},
+		}
 	],
 	links: {
 		github: "https://github.com/Kylie-Lang1",
