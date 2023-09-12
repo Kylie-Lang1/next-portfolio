@@ -1,9 +1,16 @@
 import { title } from "@/components/primitives";
+import { projects } from '../../data/projects.const'
+import ProjectCard from "@/components/project";
 
-export default function PricingPage() {
+export default function Projects() {
 	return (
-		<div>
-			<h1 className={title()}>Pricing</h1>
-		</div>
+		<>
+			<h1 className={title()}>Projects</h1>
+			{
+				projects.map((project) => {
+					return <ProjectCard project={project} />
+				})
+			}
+		</>
 	);
 }
