@@ -3,7 +3,7 @@
 import { title, subtitle } from "@/components/primitives";
 import { IoIosSchool } from 'react-icons/io'
 import { FaLaptopCode } from 'react-icons/fa'
-import {ScrollShadow} from "@nextui-org/react";
+import { ScrollShadow } from "@nextui-org/react";
 import Image from "next/image";
 import ProfileImg from '../../assets/Profile.jpg'
 
@@ -21,7 +21,7 @@ export default function AboutPage() {
 					<section className="w-[30%]">
 						<h2 className={subtitle()}>Education</h2>
 						<div className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-2xl p-1">
-							<div className="bg-black h-full w-full rounded-2xl p-6 relative">
+							<div className="bg-white dark:bg-black h-full w-full rounded-2xl p-6 relative">
 								<IoIosSchool className="text-yellow-400 w-9 h-9 bg-gray-500 rounded-full p-1 absolute left-3 top-3"/>
 								<div className="px-5">
 									<p><i>City College of New York with Macaulay Honors</i></p>
@@ -31,7 +31,7 @@ export default function AboutPage() {
 							</div>
 						</div>
 						<div className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-2xl p-1 mt-5">
-							<div className="bg-black h-full w-full rounded-2xl p-6 relative">
+							<div className="bg-white dark:bg-black h-full w-full rounded-2xl p-6 relative">
 								<FaLaptopCode className="text-yellow-400 w-9 h-9 bg-gray-500 rounded-full p-1 absolute left-3 top-3"/>
 								<p><i>Pursuit Fellowship</i></p>
 								<p className="px-5 mt-5">Certificate of Completion for <i>Full Stack Web Training</i> (June 2023)</p>
@@ -41,8 +41,8 @@ export default function AboutPage() {
 					</section>
 					<section className="w-1/3 px-6 ">
 						<h2 className={subtitle()}>Experience</h2>
-						<ScrollShadow className="h-[60%] z-40 bg-gradient-to-r from-green-300 via-cyan-500 to-blue-500 rounded-2xl p-1">
-							<div className="flex flex-col gap-8 text-left bg-black h-[180%] w-full rounded-2xl">
+						<ScrollShadow className="h-[60%] w-full bg-gradient-to-r from-green-300 via-cyan-500 to-blue-500 rounded-2xl p-1">
+							<div className="flex flex-col gap-8 text-left bg-white dark:bg-black h-[180%] w-full rounded-2xl">
 								<div className="ml-16 mt-8 flex flex-col gap-y-5">
 									<div>
 										<h3>Veterinary Assistant Lv. II - Surgery</h3>
