@@ -1,3 +1,25 @@
-.target {
+#name {
     font-kerning: none;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);  
   }
+
+.char {
+  transform: translateY(100%);
+}
+
+.line {
+  transform: translateY(200%);
+}
+
+#title {
+  font-kerning: none;
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); */
+  /* clip-path: inset(10px 0px -500px 0px); */
+}
+
+#intro{
+  /* display: visible; */
+  transition-delay: 2s;
+  transition-property: display;
+  /* transition: display 3s; */
+}
