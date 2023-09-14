@@ -1,5 +1,5 @@
-import KickItImg from '../assets/KickIt.png'
-import FitMeImg from '../assets/FitMe.png'
+import KickItImg from '../assets/projects/KickIt.png'
+import FitMeImg from '../assets/projects/FitMe.png'
 
 export const projects = [
     {

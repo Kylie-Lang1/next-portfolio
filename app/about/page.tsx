@@ -5,7 +5,7 @@ import { IoIosSchool } from 'react-icons/io'
 import { FaLaptopCode } from 'react-icons/fa'
 import { ScrollShadow } from "@nextui-org/react";
 import Image from "next/image";
-import ProfileImg from '../../assets/Profile.jpg'
+import ProfileImg from '../../assets/about/Profile.jpg'
 
 export default function AboutPage() {
 	return (
@@ -43,7 +43,7 @@ export default function AboutPage() {
 						<h2 className={subtitle()}>Experience</h2>
 						<ScrollShadow className="h-[60%] w-full bg-gradient-to-r from-green-300 via-cyan-500 to-blue-500 rounded-2xl p-1">
 							<div className="flex flex-col gap-8 text-left bg-white dark:bg-black h-[180%] w-full rounded-2xl">
-								<div className="ml-16 mt-8 flex flex-col gap-y-5">
+								<div className="ml-10 mt-8 flex flex-col gap-y-5">
 									<div>
 										<h3>Veterinary Assistant Lv. II - Surgery</h3>
 										<p>BluePearl Emergency & Specialty Animal Hospital</p>
