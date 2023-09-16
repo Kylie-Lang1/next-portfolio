@@ -9,7 +9,7 @@ export default function Projects() {
 			<div className="mt-16 grid grid-cols-2 justify-center">
 				{
 					projects.map((project) => {
-						return <ProjectCard project={project} className='m-auto'/>
+						return <ProjectCard key={project.id} project={project} className='m-auto'/>
 					})
 				}
 			</div>
