@@ -27,7 +27,7 @@ export default function Home() {
 
 			console.log(name.chars, title.lines, intro.chars)
 
-			setInit([name.chars, title.lines, intro.chars])
+			setInit(name.chars)
 			
 			// animation for each character of #name
 			// if (name.chars) {
