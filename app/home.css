@@ -23,3 +23,18 @@
   transition-property: display;
   /* transition: display 3s; */
 }
+
+.logo {
+  background-color: white;
+  scale: 1.5;
+  max-height: 60px;
+  /* max-height: 80px; */
+  /* color: black; */
+  border: 1px solid white;
+  align-items: center;
+  object-fit: contain;
+}
+
+.logo li {
+  /* margin: 0px 20px; */
+}

@@ -78,16 +78,16 @@ export default function Home() {
 				</h2>
 			</div>
 			<div className="w-full inline-flex flex-nowrap h-32">
-				<ul className="h-32 flex items-center justify-center md:justify-start animate-infinite-scroll overflow-hidden">
+				<ul className="h-32 flex items-center justify-center md:justify-start animate-infinite-scroll overflow-hidden logo">
 					<li>
 						<Image src={Logos.express_Logo} alt='express-logo'className="bg-transparent"/>
 					</li>
 					<li>
 						<Image src={Logos.html_Js_Css_Logo} alt='html-logo'/>
 					</li>
-					<li>
+					{/* <li>
 						<Image src={Logos.js_Logo} alt='js-logo'/>
-					</li>
+					</li> */}
 					<li>
 						<Image src={Logos.next_Logo} alt='next-logo'/>
 					</li>
@@ -95,7 +95,7 @@ export default function Home() {
 						<Image src={Logos.node_Logo} alt='node-logo'/>
 					</li>
 					<li>
-						<Image src={Logos.postresql_Logo} alt='postgresql-logo'/>
+						<Image src={Logos.postgresql_Logo} alt='postgresql-logo'/>
 					</li>
 					<li>
 						<Image src={Logos.react_Logo} alt='react-logo'/>
@@ -104,7 +104,7 @@ export default function Home() {
 						<Image src={Logos.tailwind_Logo} alt='tailwind-logo'/>
 					</li>
 				</ul>
-				<ul className="flex items-center justify-center md:justify-start h-32 animate-infinite-scroll overflow-hidden">
+				<ul className="flex items-center justify-center md:justify-start h-32 animate-infinite-scroll overflow-hidden logo">
 					<li>
 						<Image src={Logos.express_Logo} alt='express-logo'className="bg-transparent"/>
 					</li>
@@ -121,7 +121,7 @@ export default function Home() {
 						<Image src={Logos.node_Logo} alt='node-logo'/>
 					</li>
 					<li>
-						<Image src={Logos.postresql_Logo} alt='postgresql-logo'/>
+						<Image src={Logos.postgresql_Logo} alt='postgresql-logo'/>
 					</li>
 					<li>
 						<Image src={Logos.react_Logo} alt='react-logo'/>
