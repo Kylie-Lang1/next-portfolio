@@ -18,6 +18,15 @@ Please check out the deployed site at https://kylie-lang.netlify.app/
 
 ## How to Use
 - Fork or clone this repository
-- Run ```npm i``` to install all dependencies
-- Run ```npm run dev``` to run the development server
-- Run ```npm start``` to open the page on a localhost browser
+- Install all dependencies
+    ```
+    npm i
+    ```
+- Run the development server
+    ```
+    npm run dev
+    ```
+- Open the page on a localhost browser
+    ```
+    npm start
+    ```
