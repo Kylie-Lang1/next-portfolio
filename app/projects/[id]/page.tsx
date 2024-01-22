@@ -27,7 +27,7 @@ export default function ProjectPage ({params} : any){
                         <ul className="inline list-disc text-left">
                             {
                                 shownProject?.uses.map(use => {
-                                    return <li className="list-disc ml-5">{use}</li>
+                                    return <li className="list-disc ml-5" key={shownProject?.id}>{use}</li>
                                 })
                             }
                         </ul>
